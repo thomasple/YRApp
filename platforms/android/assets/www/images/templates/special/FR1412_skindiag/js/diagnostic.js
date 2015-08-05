@@ -69,16 +69,16 @@ $(document).ready(function () {
 ///////////////////
 
     $('.question5btn_int').click(function () {
-        TweenMax.to($('.conseil1'), 0.3, {autoAlpha: 1, z:0.1});
+        TweenMax.to($('.conseil1'), 0.2, {autoAlpha: 1, z:0.1});
     });
     $('.question7btn_int').click(function () {
-        TweenMax.to($('.conseil2'), 0.3, {autoAlpha: 1, z:0.1});
+        TweenMax.to($('.conseil2'), 0.2, {autoAlpha: 1, z:0.1});
     });
     $('.conseil1').click(function () {
-        TweenMax.to($('.conseil1'), 0.3, {autoAlpha: 0, z:0.1});
+        TweenMax.to($('.conseil1'), 0.2, {autoAlpha: 0, z:0.1});
     });
     $('.conseil2').click(function () {
-        TweenMax.to($('.conseil2'), 0.3, {autoAlpha: 0, z:0.1});
+        TweenMax.to($('.conseil2'), 0.2, {autoAlpha: 0, z:0.1});
     });
 
     $('.question1btn11').click(function () {
@@ -109,7 +109,7 @@ $(document).ready(function () {
         ausuivant(10);
     });
     $('.question5btn_int').click(function () {
-        TweenMax.to($('.conseil1'), 0.8, {autoAlpha: 1, z:0.1});
+        TweenMax.to($('.conseil1'), 0.3, {autoAlpha: 1, z:0.1});
     });
 
     $('.nav_btn1').addClass('clicked');
@@ -679,7 +679,7 @@ $(document).ready(function () {
             checkInp();
         }
     });
-    
+
 /////////////////////////////////////
 /////////////////////////////////////
 //////  COND. 
