@@ -1,0 +1,58 @@
+body {
+    margin: 0
+}
+
+#Diagnostic div {
+    position: absolute
+}
+
+#Diagnostic img {
+    position: absolute
+}
+
+#Diagnostic button {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#Diagnostic {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 1280px;
+    height: 800px;
+    overflow: auto;
+}
+
+#block {
+    opacity: 1;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 1280px;
+    height: 800px;
+}
+
+#Intro_background {
+    z-index: 3;
+    width: 1280px;
+    height: 800px;
+    overflow: auto;
+}
+
+.background {
+    z-index: 2;
+    width: 100%;
+}
+
+.restart {
+    display: block;
+    position: absolute;
+    top: 55px;
+    left: 25px;
+    width: 340px;
+    height: 60px;
+    z-index: 10;
+}

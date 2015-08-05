@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 <head>
+    <meta charset="utf-8">
     <meta http-equiv="Content-Security-Policy"
           content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
     <meta name="format-detection" content="telephone=no">
@@ -245,9 +246,8 @@
                         <div class="votreage style-5">
                             <!-- <input onfocus="javascript: this.value=''" onblur="this.value='Merci d'entrer votre âge'" value="Merci d'entrer votre âge" maxlength="2" id="sonage" type="text"> -->
                             <form id="enterage" name="enterage" action="">
-                                <input value="Введите Ваш возраст" maxlength="2" id="sonage" name="sonage" type="text"
-                                       onfocus="if(this.value=='Введите Ваш возраст') this.value='';"
-                                       onblur="if(this.value=='') this.value='Введите Ваш возраст';">
+                                <input placeholder="Введите Ваш возраст" maxlength="2" id="sonage" name="sonage"
+                                       type="number">
                             </form>
                             <!--<input id="l25" type="radio" name="age-select" value=""><label for="l25">Меньше 25</label>
                             <input id="g25" type="radio" name="age-select" value=""><label for="g25">25-30</label>
@@ -331,11 +331,12 @@
         </div>
 
     </div>
-    <script type="text/javascript" src="images/templates/special/FR1412_skindiag/js/jquery.min.js"></script>
+    <script type="text/javascript" src="images/templates/special/FR1412_skindiag/js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript"> var path_for_js = "/images/templates/special/FR1412_skindiag";  </script>
     <script type="text/javascript" src="images/templates/special/FR1412_skindiag/js/diagnostic.js?nocache=7"></script>
-    <script type="text/javascript" src="images/templates/special/FR1412_skindiag/js/ThrowPropsPlugin.js"></script>
+    <!--<script type="text/javascript" src="images/templates/special/FR1412_skindiag/js/ThrowPropsPlugin.js"></script>-->
     <script src="images/templates/special/FR1412_skindiag/js/quest_chrome_popin.js"></script>
     <script type="text/javascript" src="images/templates/special/FR1412_skindiag/js/Draggable.js"></script>
+</div>
 </body>
 </html>
